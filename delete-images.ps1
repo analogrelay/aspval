@@ -1,0 +1,1 @@
+docker rmi $(docker images --filter label=aspval=1 -q)
